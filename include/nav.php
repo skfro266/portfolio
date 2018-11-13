@@ -7,8 +7,8 @@
 <script>
 <?
 $location = 0;
-if(isset($_GET['S'])) $location = $_GET['S'];
-echo "var loc = ".$location.";";
+if(isset($_GET['S'])) $location = $_GET['S'];//$_GET['S']:$는 변수를 GET는 get방식을 의미 따라서 S르 get방식을로 얻는 변수를 의미한다.
+echo "var loc = ".$location.";";//..: ++php에서 ++를 의미
 ?>
 $(".navs li").css({"background-color":"f8f8f8","border-bottom":"1px solid #999"});
 $(".navs li").eq(loc).css({"background-color":"fff","border-bottom":"1px solid #fff"});
