@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +18,7 @@
             <tr>
                 <td>행 갯수</td>
                 <td>
-                    <select class="w3-border w3-select" namw="row">
+                    <select class="w3-border w3-select" name="row">
                         <? for($i=1; $i<=10; $i++){ ?>
                             <option value-"<?=$i?>"><?=$i?></option>
                         <? } ?>
