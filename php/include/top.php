@@ -5,8 +5,8 @@
         <li>Login</li>
     </ul>
 </div>
-<div class="top">
-    <div class="logo">LOGO</div>
+<div class="top clear">
+    <div class="logo"><a href="../php/board/">LOGO</a></div>
     <div class="bars">
         <span class="fa fa-bars"></span>
     </div>
