@@ -1,8 +1,9 @@
 /*
-gbook_api.php
-chk : 'I', writer:"A", content:"B", email:"C" --> 데이터 저장
-chk : 'D', id:2 --> 데이터 id가 2번인 데이터를 삭제하겠다.
-chk : 'S' 데이터를 보내주겠다.
+개발 API명세서
+1. API주소 : gbook_api.php
+2.chk : 'I', writer:"A", content:"B", email:"C" --> 데이터 저장
+3.chk : 'D', id:2 --> 데이터 id가 2번인 데이터를 삭제하겠다.
+4.chk : 'S' 데이터를 보내주겠다.
 */
 var gbook = new Ajax("gbook_api.php");
 
