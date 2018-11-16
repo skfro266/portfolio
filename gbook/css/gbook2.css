@@ -1,0 +1,9 @@
+@import "base.css";
+
+.wrap{width: 100%; height: 100%;}
+.lists{width: 100%; height: 70%; border:2px solid rgb(182, 220, 255); overflow-y: scroll;}
+.lists > li{padding: 6px; border-bottom: 2px solid #999;}
+.lists > li > div{padding: 4px 0; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.lists > li > i{cursor: pointer; float: right; width: 10px; height: 10px;}
+.write{width: 100%; height: 30%;}
+.write div {height: 25%; padding: 4px;}
