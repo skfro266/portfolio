@@ -22,7 +22,7 @@
             </ul>
         </div>
         <div class="top clear">
-            <div class="logo"><a href="../php/board/">LOGO</a></div>
+            <div class="logo"><a href="../board/">LOGO</a></div>
             <div class="bars">
                 <span class="fa fa-bars"></span>
             </div>

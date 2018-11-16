@@ -7,7 +7,7 @@
 
 .top{margin: 1rem 0; font-size: 1.5rem; border: 1px solid #999; background-color: #f8f8f8;}
 .top > .logo{float: left; margin-left: 1.5em;}
-.top > .bars{float:right;}
+.top > .bars{float:right; }
 .navs{margin-top: 2rem; border-bottom: 1px solid #999;}
 .navs > li{float: left; width: 24%; border: 1px solid #999; padding: 1rem; text-align: center; border-bottom: 1px solid #fff;}
 .navs > li:nth-child(1){margin: 0 1% -1px 0%;}
