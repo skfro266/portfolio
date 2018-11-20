@@ -5,11 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>방명록</title>
+    <title>MP3플레이어</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="css/gbook2.css">
+    <link rel="stylesheet" href="../css/sound.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
-<body></body>
+
+<body>
+    <div class="wrap_snd">
+        <audio id="snd">
+            <source src="../mp3/sound1.mp3" type="audio/mpeg">
+        </audio>
+        <select id="sel_snd" class="w3-select w3-show-inline-block w3-border">
+            <option value="../mp3/sound1.mp3">음악1</option>
+            <option value="../mp3/sound2.mp3">음악2</option>
+            <option value="../mp3/sound3.mp3">음악3</option>
+        </select>
+        <i class="fa fa-play-circle" id="bt_play"></i>
+        <script src="../js/sound.js"></script>
+    </div>
+</body>
+
 </html>
